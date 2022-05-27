@@ -114,4 +114,17 @@ our_set.discard('a')
 # remove an item from a set if it is present in the set
 our_set.remove('a')
 
+# create intersection of sets
+
+setOne = {1,2,3,4,5}
+setTwo = {4,5,6,7,8}
+
+intSets = setOne & setTwo
+
+# check if a value exists inside a dictionary
+my_dict = {'a':1,'b':2,'c':3}
+
+if 1 in my_dict.values():
+   print('Yes')
+
 
